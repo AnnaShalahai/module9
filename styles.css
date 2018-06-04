@@ -1,0 +1,459 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-family: Montserrat;
+   
+}
+.container{
+    width: 540px;
+    height: 1718px;
+    margin: 0 auto;
+    font-family: Roboto, Montserrat, sans-serif;
+    font-size: 14px;
+}
+.main-header{
+    width: 100%;
+    height: 31.4%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+.main-header{
+    background-image: url(https://image.ibb.co/mCHBQo/Vector_Smart_Object.png);
+    background-size: cover;
+}
+.click{
+    list-style: none;
+    display: flex;
+   justify-content: space-between;
+}
+.log-in{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 14px;
+  position: absolute;
+    width: 89px;
+    height: 35px;
+    top:5%;
+    left: 20%;
+    margin: 0;
+    padding: 0;
+   }
+   .log-in::first-letter{
+       text-transform: uppercase;
+   }
+.log-in:hover{
+
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+}
+.sign-up{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    width: 89px;
+    height: 35px;
+    top:5%;
+    right: 20%;
+    
+ }
+ .sign-up::first-letter{
+    text-transform: uppercase;
+}
+.sign-up:hover{
+    border: 1 px solid;
+   border-color: aliceblue;
+   cursor: pointer;
+    border-radius: 15px; 
+   
+}
+    
+    .one{
+        font-weight: 700;
+        font-size: 20px;
+
+        
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .two{
+        font-weight: 700;
+        font-size: 30px;
+        
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .three{
+        font-family: Roboto;
+        font-size: 18px;
+font-weight: 300;
+  
+        text-align: center;
+            }
+            .three::first-letter{
+                text-transform: uppercase;
+            }
+            .row2{
+                margin-top: 25%;
+                margin-left: 10%;
+            }
+    .find{
+        text-align: center;
+        border-radius: 35px; 
+        border-color: rgb(255, 78, 80);
+        background-color: rgb(255, 78, 80);
+        color: rgb(255, 255, 255);
+        width: 280px;
+        height: 40px;
+        cursor: pointer;
+         }
+    .find::first-letter{
+        text-transform: uppercase;
+    }
+    .find:hover{
+        text-transform: uppercase;
+    }
+    .row3{
+        margin-top: 30%;
+        margin-left: 20%;
+    }
+    .title{
+font-family: Montserrat;
+color:  rgb(51, 51, 51);
+font-size: 22px;
+font-weight: 700;
+text-align: center;
+    }
+    .title::first-letter{
+        text-transform: uppercase;
+    }
+   
+.name{
+    font-family: Montserrat;
+color:  rgb(51, 51, 51);
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+}
+.about::first-letter{
+    text-transform: uppercase;
+}
+.about{
+    font-family: Roboto;
+color:  rgb(102, 102, 102);
+font-size: 14px;
+font-weight: 300;
+text-align: center;
+}
+.partner-one{
+    position: relative;
+}
+
+.bradley{
+    margin: 0 auto;
+}
+.ellipse-one{
+ position: absolute;
+left:58%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.tv{
+position: absolute;
+margin: 0 auto;
+left:60%;
+top:49%;
+
+}
+.partner-two{
+    position: relative;}
+.lucas{
+    margin: 0 auto;
+}
+.ellipse-two{
+ position: absolute;
+left:57%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.flask{
+position: absolute;
+margin: 0 auto;
+left:60%;
+top:49%;
+
+}
+.partner-three{
+    position: relative;}
+.heather{
+    margin: 0 auto;
+}
+.ellipse-three{
+ position: absolute;
+left:57%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.cup{
+position: absolute;
+margin: 0 auto;
+left:59%;
+top:48%;
+
+}
+.partner-four{
+    position: relative;}
+.hanter{
+    margin: 0 auto;
+}
+.ellipse-four{
+ position: absolute;
+left:57%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.letter{
+position: absolute;
+margin: 0 auto;
+left:59%;
+top:48%;
+
+}
+.other{
+    font-family: Montserrat;
+color:  rgb(255, 78, 80);
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+width: 280px;
+height: 40px;
+margin: 0 auto;
+cursor: pointer;
+border-radius: 35px; 
+border-color: rgb(255, 78, 80);
+background-color: rgb(255, 255, 255);
+}
+.other::first-letter{
+    text-transform: uppercase;
+}
+.row9{
+    margin-left: 20%;
+}
+@media (min-width: 768px) {
+   .container{
+       width: 768px;
+       height: 1437px;
+   }
+   .main-header{
+       background-image: url(https://image.ibb.co/kXbbD8/Vector_Smart_Object_1.png);
+       width: 768px;
+       height: 700px;
+   }
+   .main-header{
+    position: relative;
+}
+.row2{
+   position: absolute;
+   bottom:95%;
+  right: 75%;
+}
+   
+.row2-2{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:20%;
+}
+
+   .row{
+       display: flex;
+       justify-content: flex-end;
+   }
+   .row2-3{
+    margin-top: 47%;
+    margin-left: 20%;
+    
+    
+  
+   }
+  .row3{
+     margin-top: 10%;
+     margin-left: 30%;
+  }
+   .two{
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    left: 10%;
+    top:25%;
+   }
+   .three{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+   
+   }
+   
+   .main-menu{
+       
+       margin: 0;
+       padding: 0;
+   }
+   .row4{
+       margin-top: 2%;
+       margin-left: 20%;
+   }
+   .partner-one{
+    display: inline-block;
+     width: 270px;
+     height: 200px;
+     padding: 10px;
+     left: 15%;
+
+   }
+   .partner-two{
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+    padding: 10px;
+    left: 15%;
+  }
+  .partner-three{
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+    padding: 10px;
+    left: 15%;
+
+  }
+  .partner-four{
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+   padding: 10px;
+    left: 15%;
+  }
+  .ellipse-one{
+      top:68%;
+      left: 60%;
+  }
+  .tv{
+      top:75%;
+      left:65%;
+  }
+  .ellipse-two{
+    top:68%;
+    left: 60%;
+}
+.flask{
+    top:75%;
+    left:67%;
+}
+.ellipse-three{
+    top:68%;
+    left: 60%;
+}
+.cup{
+    top:75%;
+    left:65%;
+}
+.ellipse-four{
+    top:68%;
+    left: 60%;
+}
+.letter{
+    top:75%;
+    left:65%;
+}
+    }
+    @media (min-width: 1440px) {
+        .container{
+            width: 1440px;
+            height: 1210px;
+        }
+        .main-header{
+            background-image: url(https://image.ibb.co/m6hhNd/Vector_Smart_Object_2.png);
+            width: 1440px;
+            height: 700px;
+        } 
+        .log-in{
+            top:5%;
+           left: 22%;
+           }
+           .sign-up{
+               top:5%;
+               right: 17%;
+           }
+           .one{
+            font-family: Montserrat;
+            color:  #ffffff;
+            font-size: 20px;
+            font-weight: 700;
+            top:8%;
+            left: 17%;
+           }
+           .two{
+               width: 470px;
+               height: 101px;
+            font-size: 52px;
+            font-weight: 700;
+            margin-left: 95%;
+            margin-top: 20%;
+           }
+           .three{
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 300;
+           
+            
+           }
+           .find{
+            margin-left: 20%;
+              margin-bottom: 60%;         
+           }
+           .row2-3{
+            margin-top: 25%;
+            margin-left: 20%;
+           }
+           .row4{
+               margin-top: 5%;
+               margin-left: 40%;
+           }
+           .other{
+            margin-left: 40%;
+            margin-top: 5%;
+        }
+        .letter{
+            top:75%;
+            left:62%;
+        }
+        .cup{
+            top:73%;
+            left:63%;
+        }
+        .flask{
+            top:74%;
+            left:64%;
+        }
+        .tv{
+            top:74%;
+            left:63%;
+        }
+     }
